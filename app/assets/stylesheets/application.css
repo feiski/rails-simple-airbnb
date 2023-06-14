@@ -13,3 +13,78 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #fbe9d7;
+}
+
+.banner {
+  background-color: #F1F1F1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  text-decoration: none;
+}
+
+#the-banner {
+  background-color: #f6d5f7;
+}
+
+.card-body {
+  background-color: #118ab2;
+  color: white;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #073b4c;
+  color: white;
+  padding: 10px;
+}
+
+.new-button {
+  padding: 10px 20px;
+  background-color: #06d6a0;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.more-info-button {
+  background-color: #06d6a0;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: 2px solid #055e46;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.edit-info-button {
+  background-color: #ffd166;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: 2px solid #553d06;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.delete-info-button {
+  background-color: #ef476f;
+  color: #FFFFFF;
+  margin-top: 10px;
+  border: 2px solid #570b1d;
+  box-shadow: 2px 2px 2px #000000;
+}
+
+.custom-submit-button {
+  /* Add your custom styles here */
+  background-color: #06d6a0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
